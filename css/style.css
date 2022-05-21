@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "KomeringKaganga";
+    src: url("../font/KomeringKaganga-Regular.ttf");
+}
+
+.MainKeypad {
+    padding: 0px 80px;
+}
+
+.MainKeypadRow {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.MainKeypadRow .btn.biasa {
+    font-size: 15px;
+    margin: 0px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MainKeypadRow .btn {
+    font-size: 30px;
+    margin: 0px 5px;
+    font-family: "KomeringKaganga";
+}
+
+.MainKeypadRow .btn span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.MainInput #InputField.form-control {
+    font-family: "KomeringKaganga";
+    font-size: 40px;
+}
